@@ -1,34 +1,57 @@
-html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
-	background: #E7E7E7;
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #111;
+    background: #E7E7E7;
 }
 
 a {
-	color: #0078A0;
+    color: #0078A0;
 }
 
 .content {
-	text-align: center
-	padding: 0 15% 20px;
+    text-align: center
+    padding: 0 15% 20px 0;
 }
 
 .content h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+}
 
-
-content form {
-	padding: 10px;
-	width: 300px;
-	margin: 0 auto;
+form {
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .content form input {
-	width: 100%;
-	// border: 2px solid #107394;
-	color: #107394;
-	background: transparent;
-	magrin-bottom: 15px;
+    width: 100%;
+    border: 2px solid #107394;
+    color: #107394;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.content div {
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+.click {
+    background: #ADD8E6;
+}
+
+.mouse-over {
+    background: #CF6E0E;
+}
+
+.content form .submit {
+    background: #43AC6A;
+}
+
+.timeout {
+    display: none;
+    background: #CCCCCC;
 }
