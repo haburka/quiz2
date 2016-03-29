@@ -3,7 +3,16 @@ body {
     color: #111;
     background: #E7E7E7;
 }
+.bg-img{
+    background: url(053.jpg) no-repeat center center fixed;
+}
 
+.my-font{
+    color:white;
+}
+#my-font{
+    color:white;
+}
 a {
     color: #0078A0;
 }

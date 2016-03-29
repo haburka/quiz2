@@ -4,6 +4,7 @@ $(function(){
 	// Use ajax to reach the api endpoint
 	// Whether or not you use jQuery, you still have to fix the jQuery errors. Removing jQuery is not fixing the problem.
 
+
 	$mouseover = $('.mouse-over');
 	$click     = $('.click');
 	$submit       = $('.submit');
